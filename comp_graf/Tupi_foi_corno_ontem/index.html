@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+ 
+<title>Aula 01</title>
+</head>
+<body>
+<canvas id="canvas">
+Infelizmente, o seu browser não dá suporte ao elemento Canvas
+,→ do HTML5.
+</canvas>
+
+<div>
+Velocidade da Animação 0% <input id="slider" type="range"
+ min="0" max="500" step="50" value="0" />
+ 100%
+</div>
+
+<button id="RotationX">Mudar Direção da Rotação X</button>
+
+<button id="RotationStartX">Iniciar a Rotação X</button>
+
+<button id="RotationStopX">Parar a Rotação X</button>
+
+<hr/>
+
+<button id="RotationY">Mudar Direção da Rotação Y</button>
+
+<button id="RotationStartY">Iniciar a Rotação Y</button>
+
+<button id="RotationStopY">Parar a Rotação Y</button>
+
+<hr/>
+
+<button id="RotationZ">Mudar Direção da Rotação Z</button>
+
+<button id="RotationStartZ">Iniciar a Rotação Z</button>
+
+<button id="RotationStopZ">Parar a Rotação Z</button>
+
+<hr/>
+
+<button id="ScaleDirection">Mudar Direção da Mudança de Escala</button>
+
+<button id="ScaleStart">Iniciar a Mudança de Escala</button>
+
+<button id="ScaleStop">Parar a Mudança de Escala</button>
+
+<hr/>
+
+<button id="TranslationX">Mudar Direção da Translação X</button>
+
+<button id="TranslationStartX">Iniciar a Translação X</button>
+
+<button id="TranslationStopX">Parar a Translação X</button>
+
+<hr/>
+
+<button id="TranslationY">Mudar Direção da Translação Y</button>
+
+<button id="TranslationStartY">Iniciar a Translação Y</button>
+
+<button id="TranslationStopY">Parar a Translação Y</button>
+
+<hr/>
+
+<button id="TranslationZ">Mudar Direção da Translação Z</button>
+
+<button id="TranslationStartZ">Iniciar a Translação Z</button>
+
+<button id="TranslationStopZ">Parar a Translação Z</button>
+
+
+</body>
+
+<!-- Criar as Matrizes de Projeção e Visualização.  Para criar essas -->
+<!-- matrizes, vamos usar a biblioteca glMatrix, amplamente -->
+<!-- utilizada junto com WebGL para manipulação de vetores e matrizes. -->
+
+<script src="https://cdn.jsdelivr.net/npm/gl-matrix@2.8.1/dist/gl-matrix-min.js"></script>
+<script type="text/javascript" src="utils.js"></script>
+<script type="text/javascript" src="aula09.js"></script>
+</html>

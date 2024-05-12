@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+ 
+<title>Aula 01</title>
+</head>
+<body>
+<canvas id="canvas">
+Infelizmente, o seu browser não dá suporte ao elemento Canvas
+,→ do HTML5.
+</canvas>
+
+<div>
+Velocidade da Animação 0% <input id="slider" type="range"
+ min="0" max="500" step="10" value="0" />
+ 100%
+</div>
+
+<hr>
+
+<button id="Rotation">Mudar Direção da Rotação X</button>
+
+<button id="RotationStart">Iniciar a Rotação X</button>
+
+<button id="RotationStop">Parar a Rotação X</button>
+
+<hr/>
+
+
+<button id="ScaleDirection">Mudar Direção da Mudança de Escala</button>
+
+<button id="ScaleStart">Iniciar a Mudança de Escala</button>
+
+<button id="ScaleStop">Parar a Mudança de Escala</button>
+
+<hr/>
+
+<button id="Translation">Mudar Direção da Translação X</button>
+
+<button id="TranslationStart">Iniciar a Translação X</button>
+
+<button id="TranslationStop">Parar a Translação X</button>
+
+<hr/>
+
+
+
+</body>
+
+<!-- Criar as Matrizes de Projeção e Visualização.  Para criar essas -->
+<!-- matrizes, vamos usar a biblioteca glMatrix, amplamente -->
+<!-- utilizada junto com WebGL para manipulação de vetores e matrizes. -->
+
+<script src="https://cdn.jsdelivr.net/npm/gl-matrix@2.8.1/dist/gl-matrix-min.js"></script>
+<script type="text/javascript" src="utils.js"></script>
+<script type="text/javascript" src="aula08.js"></script>
+</html>
