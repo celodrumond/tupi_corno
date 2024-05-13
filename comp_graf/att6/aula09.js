@@ -181,32 +181,32 @@ var aux1 = true;
 var aux2 = true;
 var aux3 = true;
 
-document.getElementById('RotationX').addEventListener("click", () => {
-    if (aux1 == true) {
-        transform_x = -100;
-        aux1 = false;
-    } else { transform_x = 100; aux1 = true }
-})
 document.getElementById('RotationStartX').addEventListener("click", () => { transform_x = 1; })
 document.getElementById('RotationStopX').addEventListener("click", () => { transform_x = 0; })
 
 document.getElementById('RotationX').addEventListener("click", () => {
-    if (aux2 == true) {
+    if (aux1 == true) {
         transform_x = -1;
-        aux2 = false;
-    } else { transform_x = 1; aux2 = true }
+        aux1 = false;
+    } else { transform_x = 1; aux1 = true }
 })
 document.getElementById('RotationStartY').addEventListener("click", () => { transform_y = 1; })
 document.getElementById('RotationStopY').addEventListener("click", () => { transform_y = 0; })
 
-document.getElementById('RotationX').addEventListener("click", () => {
-    if (aux3 == true) {
-        transform_x = -1;
-        aux3 = false;
-    } else { transform_x = 1; aux3 = true }
+document.getElementById('RotationY').addEventListener("click", () => {
+    if (aux2 == true) {
+        transform_y = -1;
+        aux2 = false;
+    } else { transform_y = 1; aux2 = true }
 })
 document.getElementById('RotationStartZ').addEventListener("click", () => { transform_z = 1; })
 document.getElementById('RotationStopZ').addEventListener("click", () => { transform_z = 0; })
+document.getElementById('RotationZ').addEventListener("click", () => {
+    if (aux3 == true) {
+        transform_z = -1;
+        aux3 = false;
+    } else { transform_z = 1; aux3 = true }
+})
 
 document.getElementById('slider').addEventListener("click", () => { transform_vel = slider.value; })
 

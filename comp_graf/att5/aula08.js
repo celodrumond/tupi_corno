@@ -18,7 +18,7 @@ let drawColors = {
     amarelo: [1, 0.87109375, 0],
     verde: [0, 0.609, 0.230],
     vermelho: [1, 0, 0],
-    branco: [1, 1, 1],
+    branco: [0.5, 0.5, 0.5],
     preto: [0, 0, 0]
 };
 
@@ -195,7 +195,7 @@ function render() {
 
     drawShape(
         [4, 5, 6],
-        "verde",
+        "amarelo",
         {
             shape: "triangle",
             clear: false
@@ -204,7 +204,7 @@ function render() {
 
     drawShape(
         [0, 1, 3, 2],
-        "amarelo",
+        "azul",
         {
             clear: false
         }
@@ -212,7 +212,7 @@ function render() {
 
     drawShape(
         [0, -0.3, .401, 50],
-        "amarelo",
+        "azul",
         {
             shape: "circle",
             method: "TRIANGLE_FAN",
@@ -222,7 +222,7 @@ function render() {
 
     drawShape(
         [0, 0, 1, 50],
-        "azul",
+        "branco",
         {
             shape: "circle",
             method: "TRIANGLE_FAN",
